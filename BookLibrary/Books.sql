@@ -1,0 +1,5 @@
+﻿CREATE TABLE `paloalto`.`books` (
+  `bookId` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `title` VARCHAR(255) NOT NULL DEFAULT '',
+  `author` VARCHAR(100) NOT NULL DEFAULT '',
+  PRIMARY KEY (`bookId`));
